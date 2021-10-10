@@ -71,8 +71,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-# ga_track_id: 'UA-xxxxxx-1'            # Format: UA-xxxxxx-xx
-# ga_domain: domain.name
+ga_track_id: 'G-65EQ306DQM'            # Format: UA-xxxxxx-xx
+ga_domain: sam.ciaramilaro.com
 
 
 
