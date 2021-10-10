@@ -11,7 +11,7 @@ tags:
   - helpers
 ---
 
-Laravel's <a href="https://laravel.com/docs/8.x/collections#method-dd" target="_blank" rel="noopener noreferrer">`dd()`</a> "die and dump" function is so simple, yet incredibly usefull. I can't count the number of times I've used `dd('here')` when debugging. It's also great for dumping models and inspecting them in the frontend or console. In this post, we'll look at way to extend this feature for simpler output of Eloquent models.
+Laravel's <a href="https://laravel.com/docs/8.x/collections#method-dd" target="_blank" rel="noopener noreferrer">`dd()`</a> "die and dump" function is so simple, yet incredibly useful. I can't count the number of times I've used `dd('here')` when debugging. It's also great for dumping models and inspecting them in the frontend or console. In this post, we'll look at way to extend this feature for simpler output of Eloquent models.
 
 ## `dd()` as it's normally used
 If we have a `$user` variable representing an Eloquent model, then `dd($user)` will give an output such as the below.
