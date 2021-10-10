@@ -4,8 +4,7 @@ I currently work as a Lead Developer at **Kontainer.com**, a company providing t
 
 Originally from Southern California, and relocated to Denmark in 2006. I do miss the weather, but I find the overall lifestyle can culture in Denmark well suits me. When I'm not coding, I'm usually cooking, or cleaning the mess I just made cooking. I make a mean Sicilian pizza. Father of three wonderful children.
 
-
 <hr/>
-*Image Credits:*
-- Home page image: **Clint Patterson**
-- About page image: **Fotis Fotopoulos**
+<div class="pager caption">
+    Photo by <a href="https://unsplash.com/@ffstop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fotis Fotopoulos</a> on <a href="https://unsplash.com/@ffstop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</div>
