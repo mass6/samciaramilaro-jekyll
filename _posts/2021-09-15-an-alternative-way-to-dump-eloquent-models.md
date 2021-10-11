@@ -1,14 +1,15 @@
 ---
 layout:     post
-title:      "Die and Dump Arrayable"
-subtitle:   "A helper function for simpler output of Eloquent models"
-date:       2021-10-05 12:00:00
+title:      "Create a Helper Function in Laravel for Simpler Readout of Eloquent Dumps"
+subtitle:   "Die and dump arrayable: A helper function for dumping Eloquent models attributes."
+date:       2021-09-15 12:00:00
 header-style: text
 author:     "Sam"
-catalog: false
+catalog: true
 tags:
   - laravel
   - helpers
+  - tricks
 ---
 
 Laravel's <a href="https://laravel.com/docs/8.x/collections#method-dd" target="_blank" rel="noopener noreferrer">`dd()`</a> "die and dump" function is so simple, yet incredibly useful. I can't count the number of times I've used `dd('here')` when debugging. It's also great for dumping models and inspecting them in the frontend or console. In this post, we'll look at way to extend this feature for simpler output of Eloquent models.
@@ -68,7 +69,9 @@ But, instead of having to type `dd($user->toArray())` every time, you can create
 
 ## `dda()` - die and dump arrayable
 
-To create this helper function, start by adding this helper file that will contain the new `dda` function. 
+To create this helper function, start by adding this helper file that will contain 
+the new `dda` function. If you already have a customer helper file that's auto-loaded, 
+you can place it there instead.
 
 ```php
 // app/Helpers.php
@@ -92,7 +95,7 @@ if (!function_exists('dda')) {
 }
 ```
 
-Then, to ensure this file is autoloaded, add it to you composer.json file in the `autoload-dev` section.
+Then, to ensure this file gets auto-loaded, add it to you composer.json file in the `autoload-dev` section.
 
 ```json
 "autoload-dev": {
@@ -107,4 +110,6 @@ Afterwards, run:
 composer dump-autoload
 ```
 
-That's it. You can now use `dda($user)`, and it will work the same as calling the `toArray()` method on the $user object. What's more, you can still pass other variables to this function, and it will function just like the normal `dd()` method.
+That's it. You can now use `dda($user)`, and it will work the same as calling 
+the `toArray()` method on the $user object. What's more, you can still pass other 
+variables to this function, and it will function just like the normal `dd()` method.
