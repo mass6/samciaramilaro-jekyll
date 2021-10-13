@@ -11,9 +11,9 @@ skills. I'm currently working on implementing the next version of our JSON API.
 
 Originally from Southern California, and relocated to Denmark in 2006. I do miss 
 the weather, but I find the overall lifestyle and culture in Denmark suits me well. 
-When I'm not coding, I'm usually cooking, or cleaning up the mess I just made while cooking. 
+When I'm not coding, I'm usually cooking, or cleaning up the mess I just made from cooking.
 
-🍕 Make of pizza. 
+🍕 Maker of pizza. 
 🌮 Lover of tacos. 
 🧡 Father of three wonderful children.
 
